@@ -1,0 +1,22 @@
+{
+    "folders": [
+        {
+            "name": "活动平台",
+            "path": "../modules/activity"
+        },
+        {
+            "name": "共享模型",
+            "path": "../backend/src/models"
+        },
+        {
+            "name": "共享工具",
+            "path": "../backend/src/utils"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/node_modules": true,
+            "**/.git": true
+        }
+    }
+}

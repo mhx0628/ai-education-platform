@@ -1,0 +1,43 @@
+{
+  "name": "ai-education-platform",
+  "version": "1.0.0",
+  "author": "mhx0628 <mhx1@qq.com>",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "start": "cd backend && npm start"
+  },
+  "moduleStructure": {
+    "core": {
+      "status": "completed",
+      "files": [
+        "backend/src/models/User.js",
+        "backend/src/middlewares/auth.js",
+        "backend/src/app.js"
+      ]
+    },
+    "activity": {
+      "status": "pending",
+      "branch": "feature/activity-platform"
+    },
+    "ai": {
+      "status": "pending",
+      "branch": "feature/ai-integration"
+    },
+    "campus": {
+      "status": "pending",
+      "branch": "feature/campus-brain"
+    }
+  },
+  "description": "基于AI技术的综合教育平台，面向教师、学生和家长。",
+  "main": "init-project.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "license": "ISC"
+}

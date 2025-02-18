@@ -1,0 +1,26 @@
+{
+    "folders": [
+        {
+            "name": "Frontend Core",
+            "path": "frontend-core"
+        },
+        {
+            "name": "Activity Module",
+            "path": "frontend-modules/activity"
+        },
+        {
+            "name": "Backend Core",
+            "path": "backend-core"
+        },
+        {
+            "name": "AI Services",
+            "path": "backend-services/ai"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "node_modules": true,
+            "dist": true
+        }
+    }
+}

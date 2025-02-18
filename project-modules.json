@@ -1,0 +1,73 @@
+{
+  "modules": {
+    "core": {
+      "name": "核心模块",
+      "path": "./core",
+      "priority": 1,
+      "components": [
+        "用户认证",
+        "路由管理",
+        "状态管理",
+        "基础布局"
+      ]
+    },
+    "activity": {
+      "name": "活动平台",
+      "path": "./modules/activity",
+      "priority": 2,
+      "components": [
+        "活动管理",
+        "作品提交",
+        "投票系统",
+        "评审系统"
+      ]
+    },
+    "learning": {
+      "name": "学习中心",
+      "path": "./modules/learning",
+      "priority": 3,
+      "components": [
+        "课程管理",
+        "学习追踪",
+        "AI助手",
+        "成绩分析"
+      ]
+    },
+    "ailab": {
+      "name": "AI实验室",
+      "path": "./modules/ailab",
+      "priority": 4,
+      "components": [
+        "AI创作",
+        "AI教学",
+        "AI评估",
+        "模型管理"
+      ]
+    },
+    "campus": {
+      "name": "校园大脑",
+      "path": "./modules/campus",
+      "priority": 5,
+      "components": [
+        "数据监控",
+        "智能预警",
+        "决策支持",
+        "资源调度"
+      ]
+    }
+  },
+  "workspaces": {
+    "core": {
+      "name": "核心开发",
+      "modules": ["core"]
+    },
+    "teaching": {
+      "name": "教学模块",
+      "modules": ["learning", "ailab"]
+    },
+    "management": {
+      "name": "管理模块",
+      "modules": ["activity", "campus"]
+    }
+  }
+}

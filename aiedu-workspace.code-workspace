@@ -1,0 +1,65 @@
+{
+    "folders": [
+        {
+            "name": "项目总览",
+            "path": "."
+        },
+        {
+            "name": "前端基础",
+            "path": "./frontend"
+        },
+        {
+            "name": "后端基础",
+            "path": "./backend"
+        },
+        {
+            "name": "活动模块",
+            "path": "./modules/activity"
+        },
+        {
+            "name": "AI模块",
+            "path": "./modules/ai"
+        },
+        {
+            "name": "校园大脑",
+            "path": "./modules/campus-brain"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/node_modules": true,
+            "**/dist": true,
+            "**/.git": true
+        },
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll": true
+        }
+    },
+    "extensions": {
+        "recommendations": [
+            "dbaeumer.vscode-eslint",
+            "esbenp.prettier-vscode",
+            "Vue.volar",
+            "mongodb.mongodb-vscode"
+        ]
+    },
+    "launch": {
+        "configurations": [
+            {
+                "name": "启动前端开发服务",
+                "type": "node",
+                "request": "launch",
+                "program": "${workspaceFolder}/frontend/node_modules/.bin/vite",
+                "cwd": "${workspaceFolder}/frontend"
+            },
+            {
+                "name": "启动后端服务",
+                "type": "node",
+                "request": "launch",
+                "program": "${workspaceFolder}/backend/src/app.js",
+                "cwd": "${workspaceFolder}/backend"
+            }
+        ]
+    }
+}

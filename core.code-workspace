@@ -1,0 +1,23 @@
+{
+    "folders": [
+        {
+            "name": "核心模块",
+            "path": "../core"
+        },
+        {
+            "name": "共享工具",
+            "path": "../shared/utils"
+        },
+        {
+            "name": "共享组件",
+            "path": "../shared/components"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/node_modules": true,
+            "**/dist": true,
+            "**/.git": true
+        }
+    }
+}
