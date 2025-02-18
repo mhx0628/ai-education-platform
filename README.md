@@ -6,8 +6,8 @@ AI教育平台是一个综合性的在线教育系统，结合AI技术提供个�
 ## 项目结构
 ```
 aiedu.old/
-├── frontend/        # 前端项目
-├── backend/         # 后端项目
+├── frontend/        # 前端项目 (Vue3 + TypeScript)
+├── backend/         # 后端项目 (Python Flask)
 └── docs/           # 项目文档
 ```
 
@@ -22,6 +22,14 @@ cd ai-education-platform
 - Node.js >= 14
 - Python >= 3.8
 - MySQL >= 8.0
+
+3. 开发流程
+- 前端开发请查看 frontend/README.md
+- 后端开发请查看 backend/README.md
+
+## 联系方式
+- GitHub: @mhx0628
+- Email: mhx1@qq.com
 
 ## 许可证
 MIT License
